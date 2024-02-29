@@ -102,6 +102,12 @@ height: 550px;
     text-transform: uppercase;
 }
 
+ .made-text{
+    color: white;
+    padding-top: 20px;
+    font-weight: 500;
+   }
+
 @media screen and (max-width: 990px){
     .project-name-container{
         display: grid;
@@ -123,11 +129,7 @@ height: 550px;
         margin-top: 1200px;
     
 }
-   .made-text{
-    color: white;
-    padding-top: 20px;
-    font-weight: 500;
-   }
+  
    
 }
 
