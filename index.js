@@ -7,8 +7,19 @@ const modeSpan= document.getElementById('#mode-span')
 const anchor = document.querySelectorAll('.anchor-tag')
 const navbtn = document.querySelector('.top')
 let projectPage = document.querySelector('.project')
-const btn = document.querySelectorAll('button')
+const btn = document.querySelector('#submit')
+const inputName = document.querySelector('.name')
+const email = document.querySelector('.Email')
+const message = document.querySelector('.text-area')
+const subject = document.querySelector('.subject')
 
+btn.addEventListener('click',function(e){
+if(inputName.value, email.value, message.value, subject.value === ''){
+    alert('Kindly fill  all the form before sending message')
+    e.preventDefault()
+}
+
+})
 
 
 
