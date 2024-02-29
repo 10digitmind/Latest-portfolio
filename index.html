@@ -247,16 +247,25 @@
     </div>
     <div class="contactform">
 <div class="form">
-    <form>
+    <form id="form" action="https://formspree.io/f/xbjnypng"
+    method="POST">
+    <label></label>
       <input type="text" class="name" placeholder="name">
+    </label>
       <div class="email-subject">
-        <input type="text" class="Email" placeholder="email">
+        <label>
+        <input type="email" class="Email" placeholder="email">
+    </label>
+    <label>
         <input type="text" class="subject" placeholder="subect">
+    </label>
       </div>
-      <textarea class="text-area" placeholder="Message"></textarea>
-      <button id=" #contact" class="contact-btn">Send Message<span><span  id="#arrow" class="material-symbols-outlined">
+      <textarea  name="Message"  class="text-area" placeholder="Message"></textarea>
+      <a target="_blank">
+      <button type="submit"  id="submit" class="contact-btn">Send Message<span><span  id="#arrow" class="material-symbols-outlined">
        send
         </span></span></button>
+    </a>
     </form>
 </div>
     </div>
