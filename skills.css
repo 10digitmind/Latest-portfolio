@@ -94,6 +94,11 @@ height: 450px;
         grid-template-columns: 1fr 1fr 1fr;
 
     }
+    
+    .skills{
+        margin-top 400px
+    }
+
 }
 
 @media screen and (max-width: 770px){
@@ -102,6 +107,11 @@ height: 450px;
         grid-template-columns: 1fr 1fr ;
 
     }
+
+    .skills{
+        margin-top 400px
+    }
+
 }
 
 @media screen and (max-width: 550px){
@@ -111,5 +121,10 @@ height: 450px;
         margin-left: 50px;
 
     }
+
+    .skills{
+        margin-top 400px
+    }
+
     
 }
