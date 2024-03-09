@@ -41,15 +41,15 @@ height: 450px;
 
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
     justify-content: space-evenly;
     padding: 30px;
  
     
 }
 .first-skills{
-    width: 250px;
-    height: 180px;
+   
+ height: 180px;
     background-color: #1f315d;;
     display: inline-flex;
     justify-content: center;
