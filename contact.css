@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+
+
+.contact {
+    margin-top: 200px;
+    height: auto;
+    margin-bottom: 150px;
+   
+  }
+  
+  .contact-me-words-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    position: relative;
+  }
+  
+  .contact-words {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 0.5;
+  }
+  .underline-contact {
+    width: 120px;
+    height: 4px;
+    background-color: rgb(223, 37, 84);
+    position: absolute;
+    bottom: 15px;
+    text-transform: capitalize;
+  }
+  
+  
+  
+  .contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    height: auto;
+    max-width: 100%;
+    margin-top: 80px;
+  }
+
+    
+ .details{
+    
+    height: 400px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+ }
+
+
+.connect-mesaage-container{
+    width: 100%;
+    display: flex;
+ padding: 30px;
+
+    color: white;
+    height: auto;
+   
+  
+    
+}
+
+.connect-message{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+  .contact-form{
+   
+    height: 400px;
+    width: 100%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+  }
+
+
+  .name-conatiner{
+    width: 100%;
+
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+    display: flex;
+  }
+
+  .name{
+    height: 80px;
+  width: 320px;
+  border: 2px solid;
+  border: none;
+  background-color: #1f315d;
+  padding: 30px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .name::placeholder {
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .details-container{
+    display: inline-flex;
+    padding: 30px;
+    width: 100%;
+ font-size: 1rem;
+    height: 30px;
+    color: white;
+    font-weight: 900;
+    
+  }
+.phone-number{
+    padding-left: 30px;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 900;
+      color: white;
+      padding-top: 5px;
+   
+}
+.details-text{
+    padding-left: 10px;
+    
+    width: 100%;
+   
+
+}
+.Email {
+    height: 80px;
+    width: 155px;
+    border: 2px solid;
+    border: none;
+    background-color: #1f315d;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+  }
+  .Email::placeholder {
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  
+  .subject {
+    height: 80px;
+    width: 155px;
+    border: 2px solid;
+    border: none;
+    background-color: #1f315d;
+    padding: 30px;
+    border-radius: 5px;
+   margin-left: 10px;
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .subject::placeholder {
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+.email-subject {
+    margin-top: 20px;
+    width: 300px;
+   display: flex;
+    
+    
+  }
+
+ .textarea-conbtainer{
+    width: 100%;
+ }
+
+
+.text-area {
+    width: 320px;
+    margin-top: 20px;
+    resize: none;
+    height: 150px;
+    border: solid 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f315d;
+    padding: 30px;
+    color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-area::placeholder {
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+
+    #details-icon{
+        color: rgb(223, 37, 84);
+    }
+  @media screen and (max-width: 920px) {
+  
+    .contact-container {
+        grid-template-columns: 1fr ;
+        max-width: 100%;
+       
+      }
+
+      .contact-form{
+        margin-top: 100px;
+         
+           }
+  }
+  
+  @media screen and (max-width: 660px) {
+   
+    .contact-container {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+      }
+
+      .contact-form{
+        margin-top: 100px;
+         
+           }
+  }
+  

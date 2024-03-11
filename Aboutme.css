@@ -1,0 +1,60 @@
+
+
+.about{
+    height: auto;
+
+    margin-top: 150px;
+}
+.about-me-words-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    position: relative;
+   
+}
+
+.underline{
+    width: 170px;
+    height: 4px;
+    background-color:  rgb(223, 37, 84);
+    position: absolute;
+    bottom: 20px;
+    
+   
+}
+
+.about-me-words{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 0.5;
+
+}
+
+.about-me-message-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.about-me-message{
+    width: 900px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    color: white;
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.about-me-message span{
+
+    color: rgb(223, 37, 84);;
+}
+
