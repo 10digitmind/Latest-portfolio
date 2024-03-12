@@ -119,4 +119,8 @@ color: rgb(247, 163, 163);
     transform: translateY(15%);
 }
 
+.btn-container a{
+    text-decoration: none;
+}
+
 
