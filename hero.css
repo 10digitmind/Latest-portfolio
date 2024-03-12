@@ -122,4 +122,22 @@ color: rgb(247, 163, 163);
 
 .contact-anchor {
     text-decoration:none
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border: 1px solid  rgb(223, 37, 84) ;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    justify-content: space-evenly;
+    font-weight: 900;
+   margin-top: 15px;
+    cursor: pointer;
+    transition: transform 1s;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
