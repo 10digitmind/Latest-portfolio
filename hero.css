@@ -118,3 +118,8 @@ color: rgb(247, 163, 163);
     opacity: 0.9;
     transform: translateY(15%);
 }
+
+
+.contact-anchor {
+    text-decoration:none
+}
